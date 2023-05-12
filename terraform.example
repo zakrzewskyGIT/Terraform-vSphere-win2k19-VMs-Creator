@@ -1,0 +1,23 @@
+# rename terraform.example to terraform.tfvars
+vsphere_user = "administrator@vsphere.local"
+vsphere_pass = "yourSecretSpherePassword"
+vsphere_srv = "vsphere.fqdn"
+vsphere_dc = "DataCenter"
+vsphere_datast = "DataStore"
+vsphere_cluster_name = "ClusterName"
+vsphere_network_name = "VM Network"
+vsphere_adapter_type = "vmxnet3"
+windows_template = "win2k19tmpl"
+computer_name = "vmname"
+vm-count = 2
+vm-name = "vmname"
+vm-cpu = 2
+vm-ram = 8192
+domain = "example.domain"
+domain_admin_user = "DomainAdmin"
+domain_admin_password = "yourSecretDomainPassword"
+dns_server_list = ["4.4.4.4","8.8.8.8"]
+ipv4_addresses = ["10.10.10.11","10.10.10.12"]
+ipv4_netmasks = [24,24]
+vmgateway = "10.10.10.1"
+local_adminpass = "yourSecretLocalPass"
